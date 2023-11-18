@@ -33,9 +33,9 @@ export const bottombarLinks = [
     label: "Saved",
   },
   {
-    imgURL: "/assets/icons/wallpaper.svg",
-    route: "/explore",
-    label: "Explore",
+    imgURL: "/assets/icons/people.svg",
+    route: "/all-users",
+    label: "People",
   },
   {
     imgURL: "/assets/icons/gallery-add.svg",
