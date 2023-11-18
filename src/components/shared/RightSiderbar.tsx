@@ -14,7 +14,7 @@ const RightSiderbar = () => {
     return;
   }
   return (
-    <div className="user-card custom-scrollbar overflow-scroll md:hidden lg:block">
+    <div className="user-card custom-scrollbar overflow-scroll">
       <div className="user-container h-full">
         <h2 className="h3-bold">All Creators</h2>
         {isLoading && !creators ? (
