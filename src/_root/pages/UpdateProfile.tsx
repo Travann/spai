@@ -15,10 +15,7 @@ import { useToast } from "@/components/ui/use-toast";
 
 import { ProfileValidation } from "@/lib/validation";
 import { useUserContext } from "@/context/AuthContext";
-import {
-  useGetUserById,
-  useUpdateUser,
-} from "@/lib/react-query/quriesAndMutation";
+import { useGetUserById, useUpdateUser } from "@/lib/react-query/queries";
 import Loader from "@/components/shared/Loader";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";

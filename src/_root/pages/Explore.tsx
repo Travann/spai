@@ -4,10 +4,7 @@ import { useInView } from "react-intersection-observer";
 import useDebounce from "@/hooks/useDebounce";
 import Loader from "@/components/shared/Loader";
 import GridPostList from "@/components/shared/GridPostList";
-import {
-  useGetPosts,
-  useSearchPosts,
-} from "@/lib/react-query/quriesAndMutation";
+import { useGetPosts, useSearchPosts } from "@/lib/react-query/queries";
 import { Input } from "@/components/ui/input";
 export type SearchResultProps = {
   isSearchFetching: boolean;

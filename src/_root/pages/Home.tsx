@@ -1,14 +1,10 @@
 import Loader from "@/components/shared/Loader";
 import PostCard from "@/components/shared/PostCard";
-import { useGetRecentPosts } from "@/lib/react-query/quriesAndMutation";
+import { useGetRecentPosts } from "@/lib/react-query/queries";
 import { Models } from "appwrite";
 
 const Home = () => {
-  const {
-    data: posts,
-    isPending: isPostLoading,
-    isError: isErrorPosts,
-  } = useGetRecentPosts();
+  const { data: posts, isPending: isPostLoading } = useGetRecentPosts();
 
   return (
     <div className="flex flex-1">

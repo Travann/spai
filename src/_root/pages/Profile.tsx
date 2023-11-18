@@ -9,7 +9,7 @@ import {
 
 import { LikedPosts } from "@/_root/pages";
 import { useUserContext } from "@/context/AuthContext";
-import { useGetUserById } from "@/lib/react-query/quriesAndMutation";
+import { useGetUserById } from "@/lib/react-query/queries";
 import Loader from "@/components/shared/Loader";
 import { Button } from "@/components/ui/button";
 import GridPostList from "@/components/shared/GridPostList";
