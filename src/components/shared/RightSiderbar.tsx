@@ -1,5 +1,3 @@
-import React from "react";
-
 const RightSiderbar = () => {
   return <div>RightSiderbar</div>;
 };
