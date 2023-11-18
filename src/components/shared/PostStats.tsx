@@ -3,7 +3,7 @@ import {
   useGetCurrentUser,
   useLikePost,
   useSavePost,
-} from "@/lib/react-query/quriesAndMutation";
+} from "@/lib/react-query/queries";
 import { checkIsLiked } from "@/lib/utils";
 import { Models } from "appwrite";
 import { useEffect, useState } from "react";

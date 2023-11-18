@@ -7,7 +7,6 @@ import {
   AllUsers,
   CreatePost,
   EditPost,
-  Explore,
   Home,
   PostDetails,
   Profile,
@@ -31,7 +30,6 @@ const App = () => {
         {/* Private Routes */}
         <Route element={<RootLayout />}>
           <Route index element={<Home />} />
-          <Route path="/explore" element={<Explore />} />
           <Route path="/saved" element={<Saved />} />
           <Route path="/all-users" element={<AllUsers />} />
           <Route path="/create-post" element={<CreatePost />} />
